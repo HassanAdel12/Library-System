@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 
 namespace library_system.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class BookController : ControllerBase
     {

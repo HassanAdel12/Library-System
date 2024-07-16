@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace library_system.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class CategoryController : ControllerBase
     {
