@@ -26,7 +26,6 @@ namespace library_system.EF.Repositories
         public T Add(T entity)
         {
             Context.Set<T>().Add(entity);
-            Context.SaveChanges();
 
             return entity;
         }
@@ -34,6 +33,7 @@ namespace library_system.EF.Repositories
         public T Update(T entity)
         {
             Context.Update(entity);
+
             return entity;
         }
 
